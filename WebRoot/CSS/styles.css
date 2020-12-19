@@ -1,0 +1,152 @@
+.inputBox{
+	width:350xp;
+	color:black;
+}
+.textLbl{
+	align:right;
+	font-size:20px;
+	font-family:STCaiyun;
+	color:chocolate;
+}
+body {
+    text-align:center;
+    width: 1500px;
+    height: 730px;
+    z-index: 0;
+    align-items: center;
+    align-content: center;
+    background-image: url('../img/titleScreen_Page.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.blk_center {
+    text-align:center;
+    width: 80%;
+    height: 100%;
+    z-index: 1;
+    margin: 0 auto;
+}
+h1{
+	text-align:center;
+	font-size:30px;
+	color:purple;
+	font-family:STLiti;
+	font-weight:bold;
+}
+.checkBox{
+	color:brown;
+	font-family:微软雅黑;
+	align:left;
+	font-size:16px;
+}
+.btn{
+	background-color:brown;
+	color:pink;
+	
+}
+.tips{
+	color:black;
+	font-size:13px;
+	font-family:微软雅黑;
+	display:none;
+}
+.warnings{
+	color:red;
+	font-size:13px;
+	font-family:微软雅黑;
+	display:none;
+}
+
+.header{
+	width: 1500px;
+	height: 75px;
+	background-image:url("../img/ranking_silver.jpg");
+	margin-bottom: 3px;
+	opacity:0.8;
+	font-size: 20px;
+}
+	.header .title{
+		width: fit-content;
+	    position: absolute;
+	    left: 1100px;
+	    top: 35px;
+	}
+	.header .info{
+		width:fit-content;
+		top: 5%;
+		left: 1300px;
+		position: absolute;
+	}
+.nav{
+	width:1500px;
+	height: 36px;
+	text-align: center;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	opacity:0.8;
+	float: left;
+}
+	.nav a{
+		text-decoration:none;
+		height:36px;
+		line-height:200%;
+		width:150px;
+		margin-left: 10px;
+		margin-right: 10px;
+		background-image:url("../img/title_button.png");
+		background-position:center;
+		background-size:100% 100%;
+		vertical-align:middle;
+		display:inline-table;
+	}
+		.nav a:HOVER{
+			background-color: white;
+		}
+.lnav{
+	width:300px;
+	height:515px;
+	float:left;
+	background-image:url("../img/ranking_master.jpg");
+	margin-top: 3px;
+	margin-bottom: 3px;
+	opacity:0.8;
+}
+	.lnav a{
+		width:300px;
+		height:40px;
+		line-height:40px;
+		text-decoration:none;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		background-image:url("../img/title_button.png");
+		background-position:center;
+		background-size:100% 100%;
+		vertical-align:middle;
+		display: inline-block;
+	}
+		.lnav a:HOVER{
+				background-color: white;
+			}
+	
+.content{
+	width:900px;
+	height:515px;
+	float: left;
+	background-image:url("../img/ranking_platina.jpg");
+	background-position:center;
+	background-size:auto 100%;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	opacity:0.8;
+}
+.footer{
+	width: 1500px;
+	height: 73px;
+	background-image:url("../img/ranking_silver.jpg");
+	margin-top: 3px;
+	float: left;
+	opacity:0.8;
+}
